@@ -5,7 +5,7 @@ import { useState } from "react";
 interface arraryType {
   title: string;
   explain: string;
-  billed: string;
+  billed?: string;
   billedType: string;
   advantageList: {
     text: string;

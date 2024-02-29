@@ -11,9 +11,9 @@ interface arraryType {
     text: string;
     moreInfo?: string;
   }[];
-  billedAnnually?: undefined;
-  billedMonth?: undefined;
-  annuallyPrice?: undefined;
+  billedAnnually?: string;
+  billedMonth?: string;
+  annuallyPrice?: string;
 }
 const arrary: arraryType[] = [
   {

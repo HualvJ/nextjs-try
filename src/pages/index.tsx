@@ -14,6 +14,7 @@ interface arraryType {
   billedAnnually?: string;
   billedMonth?: string;
   annuallyPrice?: string;
+  btnText: string;
 }
 const arrary: arraryType[] = [
   {
@@ -22,6 +23,7 @@ const arrary: arraryType[] = [
       "For individuals looking to explore Runway’s AI Magic Tools and content creation features.",
     billed: "Free Forever",
     billedType: "",
+    btnText: "Sign up",
     advantageList: [
       {
         text: "125 credits",
@@ -65,6 +67,7 @@ const arrary: arraryType[] = [
     billedMonth: "$15",
     billedType: "max. 5 users per workspace",
     annuallyPrice: "annually as $144",
+    btnText: "Subscribe now",
     advantageList: [
       {
         text: "625 credits/month",
@@ -115,6 +118,7 @@ const arrary: arraryType[] = [
     billedMonth: "$35",
     billedType: "max. 10 users per workspace",
     annuallyPrice: "annually as $336",
+    btnText: "Subscribe now",
     advantageList: [
       {
         text: "2250 credits/month",
@@ -165,6 +169,7 @@ const arrary: arraryType[] = [
     billedMonth: "$95",
     billedType: "max. 10 users per workspace",
     annuallyPrice: "annually as $912",
+    btnText: "Subscribe now",
     advantageList: [
       {
         text: "Unlimited video generations   Includes all Pro Plan features, plus: ",
@@ -188,6 +193,7 @@ const arrary: arraryType[] = [
     billed: "Contact Us",
     annuallyPrice: "",
     billedType: "",
+    btnText: "Schedule a Demo",
     advantageList: [
       {
         text: "Single sign-on  ",
@@ -351,7 +357,7 @@ const Home: NextPageWithLayout = () => {
                           }`}
                           href="/"
                         >
-                          Sign up
+                          {x.btnText}
                         </a>
                       </div>
                     </div>

@@ -16,11 +16,10 @@
   }
 }
 body {
-  font-family: Roobert,sans-serif;
+  font-family: Roobert, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  -moz-osx-font-smoothing: grayscale;
 }
-
 
 /* body {
   color: rgb(var(--foreground-rgb));
@@ -31,3 +30,128 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+.rw-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1124px) {
+  .rw-container {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .rw-container {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .rw-container {
+    max-width: 1900px;
+  }
+}
+@media (min-width: 970px) {
+  .tablet\:block {
+    display: block;
+  }
+
+  .tablet\:flex {
+    display: flex;
+  }
+
+  .tablet\:hidden {
+    display: none;
+  }
+
+  .tablet\:py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.marquee-container {
+  overflow-x: hidden !important;
+  display: flex !important;
+  flex-direction: row !important;
+  position: relative;
+  --pause-on-hover: running;
+  --pause-on-click: running;
+  --width: 100%;
+  --transform: none;
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    --gradient-color: rgba(25, 26, 28, 1), rgba(25, 26, 28, 0);
+    --gradient-width: 100px;
+    &::before {
+      left: 0;
+      top: 0;
+      background: linear-gradient(to right, var(--gradient-color));
+      content: "";
+      height: 100%;
+      position: absolute;
+      width: var(--gradient-width);
+      z-index: 2;
+    }
+    &::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg);
+      background: linear-gradient(to right, var(--gradient-color));
+      content: "";
+      height: 100%;
+      position: absolute;
+      width: var(--gradient-width);
+      z-index: 2;
+    }
+  }
+  .marquee {
+    flex: 0 0 auto;
+    min-width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: scroll 107.8s linear 0s infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-direction: normal;
+  }
+  .marquee2 {
+    flex: 0 0 auto;
+    min-width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: scroll 107.8s linear 0s infinite;
+    animation-play-state: running;
+    animation-delay: 0x;
+    animation-direction: ltr;
+  }
+  .initial-child-container {
+    flex: 0 0 auto;
+    display: flex;
+    min-width: auto;
+    flex-direction: row;
+  }
+  .child {
+    --transform: none;
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

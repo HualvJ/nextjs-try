@@ -231,7 +231,7 @@ const Home: NextPageWithLayout = () => {
     <section>
       <div className="w-full ">
         <div className="fixed inset-0 bg-black bg-opacity-10 backdrop-blur-md z-[998] transition-opacity duration-200 invisible opacity-0"></div>
-        <div className="pt-28 lg:pt-2/16 pb-40 bg-[#E2E2E3] p-6">
+        <div className="pt-28 lg:pt-2/16 pb-40 bg-[#E2E2E3]">
           <div className="pb-12">
             <div className="rw-container">
               <h1 className="leading-none tracking-tight text-[56px] md:text-[9.7vw] xxl:text-[140px] font-semibold mb-7">
@@ -450,6 +450,298 @@ const Home: NextPageWithLayout = () => {
             </div>
           </section>
         </div>
+        <div className="bg-[#1D1D1D]">
+          <div className="rw-container py-7 lg:py-14">
+            <div className="text-center lg:text-left">
+              <div className="text-[28px] lg:text-[3.8vw] text-white leading-tight font-semibold tracking-tight">
+                Everything you need to make anything you want.
+              </div>
+              <div className="mt-6">
+                <a
+                  href="https://app.runwayml.com/signup"
+                  className="group  text-white items-center justify-center py-3 px-6 bg-[#292929] rounded-full backdrop-blur-md inline-flex hover:bg-black transition-colors duration-200"
+                >
+                  <div className="text-xl font-semibold leading-tight">
+                    Try Runway for Free
+                  </div>
+                  <svg
+                    className="ml-4"
+                    width="9"
+                    height="14"
+                    viewBox="0 0 9 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.21425 7.12711L1.10757 2.02044L2.12891 0.999104L8.25692 7.12711L2.12891 13.2551L1.10757 12.2338L6.21425 7.12711Z"
+                      fill="white"
+                    ></path>
+                    <path
+                      d="M1.10757 2.02044L0.754018 1.66689L0.400465 2.02044L0.754018 2.37399L1.10757 2.02044ZM6.21425 7.12711L6.5678 7.48067L6.92135 7.12711L6.5678 6.77356L6.21425 7.12711ZM2.12891 0.999104L2.48246 0.645551L2.12891 0.291997L1.77535 0.64555L2.12891 0.999104ZM8.25692 7.12711L8.61047 7.48067L8.96402 7.12711L8.61047 6.77356L8.25692 7.12711ZM2.12891 13.2551L1.77535 13.6087L2.12891 13.9622L2.48246 13.6087L2.12891 13.2551ZM1.10757 12.2338L0.754018 11.8802L0.400465 12.2338L0.754018 12.5873L1.10757 12.2338ZM0.754018 2.37399L5.86069 7.48067L6.5678 6.77356L1.46112 1.66689L0.754018 2.37399ZM1.77535 0.64555L0.754018 1.66689L1.46112 2.37399L2.48246 1.35266L1.77535 0.64555ZM0.754018 12.5873L1.77535 13.6087L2.48246 12.9016L1.46112 11.8802L0.754018 12.5873ZM5.86069 6.77356L0.754018 11.8802L1.46112 12.5873L6.5678 7.48067L5.86069 6.77356ZM8.61047 6.77356L2.48246 0.645551L1.77535 1.35266L7.90336 7.48067L8.61047 6.77356ZM2.48246 13.6087L8.61047 7.48067L7.90336 6.77356L1.77535 12.9016L2.48246 13.6087Z"
+                      fill="white"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#141414] pb-10">
+            <div className="rw-container text-[#585858] pt-12 pb-8 font-medium text-xl text-center lg:text-left">
+              <div className="px-10 lg:px-0">
+                Trusted by the world's top creatives
+              </div>
+            </div>
+            <section className="bg-[#141414]">
+              <div>
+                <div className="marquee-container ">
+                  <div className="overlay"></div>
+                  <div className="marquee">
+                    <div className="initial-child-container">
+                      <div className="child"></div>
+                      <div className="child">
+                        <div className="flex items-center space-x-10 py-4 mr-6">
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/cbs.svg"
+                              alt="CBS Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/redlab.png"
+                              alt="Redlab Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/nick-logo.png"
+                              alt="Nick Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/nvidia-logo.png"
+                              alt="Nvidia Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/r-ga.svg"
+                              alt="R/GA Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/vox.svg"
+                              alt="Vox Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/google.svg"
+                              alt="Google Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/pentagram.svg"
+                              alt="Pentagram Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/publicis-logo.png"
+                              alt="Publicis Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/new-balance.svg"
+                              alt="New Balance Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/microsoft-logo-v1.png"
+                              alt="Microsoft Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/mbc.svg"
+                              alt="Munhwa Broadcasting Company Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/vaynermedia.svg"
+                              alt="vaynermedia Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/ogilvy-logo.png"
+                              alt="Ogilvy Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/harbor-v1.png"
+                              alt="Harbor Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                          <div className="flex justify-center opacity-60">
+                            <img
+                              src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/yankees-logo.png"
+                              alt="NY Yankees Logo"
+                              className="max-h-[70px]"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="marquee2">
+                    <div className="child "></div>
+                    <div className="child">
+                      <div className="flex items-center space-x-10 py-4 mr-6">
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/cbs.svg"
+                            alt="CBS Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/redlab.png"
+                            alt="Redlab Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/nick-logo.png"
+                            alt="Nick Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/nvidia-logo.png"
+                            alt="Nvidia Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/r-ga.svg"
+                            alt="R/GA Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/vox.svg"
+                            alt="Vox Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/google.svg"
+                            alt="Google Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/pentagram.svg"
+                            alt="Pentagram Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/publicis-logo.png"
+                            alt="Publicis Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/new-balance.svg"
+                            alt="New Balance Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/microsoft-logo-v1.png"
+                            alt="Microsoft Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/mbc.svg"
+                            alt="Munhwa Broadcasting Company Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/vaynermedia.svg"
+                            alt="vaynermedia Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/ogilvy-logo.png"
+                            alt="Ogilvy Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/harbor-v1.png"
+                            alt="Harbor Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                        <div className="flex justify-center opacity-60">
+                          <img
+                            src="https://d3phaj0sisr2ct.cloudfront.net/site/logos/yankees-logo.png"
+                            alt="NY Yankees Logo"
+                            className="max-h-[70px]"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -459,10 +751,7 @@ export default Home;
 Home.getLayout = (page) => {
   return (
     <>
-      <PrimaryLayout>
-        {/* <SidebarLayout /> */}
-        {page}
-      </PrimaryLayout>
+      <PrimaryLayout>{page}</PrimaryLayout>
     </>
   );
 };

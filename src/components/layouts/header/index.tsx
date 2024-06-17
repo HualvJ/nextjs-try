@@ -11,7 +11,8 @@ const HeaderLayout: React.FC<ISFooterLayout> = () => {
           <div className="flex items-center w-40 lg:w-52">
             <a aria-label="Runway Homepage" href="/">
               <div style={{ height: "23px" }}>
-                <svg
+                hualv
+                {/* <svg
                   className="h-full w-auto"
                   viewBox="0 0 139 27"
                   fill="none"
@@ -45,13 +46,13 @@ const HeaderLayout: React.FC<ISFooterLayout> = () => {
                     d="M20.6987 26.9835C17.4276 27.2826 14.6925 23.4493 12.5958 21.5051C11.5356 29.1441 -0.00787819 28.42 4.03477e-06 20.6708C0.00394515 17.4161 4.03477e-06 9.46227 4.03477e-06 6.30987C4.03477e-06 5.17642 0.311352 4.03511 0.894637 3.06695C2.00209 1.18968 4.14212 -0.0224774 6.32155 0.0011361C9.6045 0.00507168 17.5104 -0.00279948 20.6987 0.0011361C28.4549 0.0011361 29.1918 11.5403 21.5264 12.5792L25.164 16.2118C29.1603 19.9703 26.1611 27.1488 20.6987 26.9835ZM18.9371 22.4379C21.1914 24.7599 24.7896 21.1627 22.4683 18.9116L16.1625 12.6147H12.6352C12.6352 12.9571 12.6352 15.893 12.6352 16.1409L18.0858 21.5839L18.9371 22.4379ZM3.81894 20.6747C3.76771 23.9019 8.86357 23.9137 8.81234 20.6747V6.30987C8.85569 4.70022 7.15313 3.42115 5.61609 3.91704C5.54909 3.93672 5.48604 3.95639 5.42692 3.98001C4.46135 4.33814 3.79136 5.32597 3.81894 6.3571C3.81894 6.3571 3.81894 20.6747 3.81894 20.6747ZM20.6987 8.80109C23.9383 8.85225 23.9344 3.76355 20.6987 3.81471H12.1347C12.785 5.18429 12.6195 7.31738 12.6313 8.80109C13.0963 8.80109 20.4702 8.80109 20.6987 8.80109Z"
                     className="fill-current"
                   ></path>
-                </svg>
+                </svg> */}
               </div>
             </a>
           </div>
           <nav className="hidden tablet:block">
             <ul className="flex">
-              <li className="flex justify-center h-full py-4 hover:bg-[#F1F1F1]">
+              {/* <li className="flex justify-center h-full py-4 hover:bg-[#F1F1F1]">
                 <a
                   className="cursor-pointer py-2 px-2 lg:px-3 xl:px-4 flex items-center text-sm lg:text-base"
                   href="https://research.runwayml.com/"
@@ -150,11 +151,11 @@ const HeaderLayout: React.FC<ISFooterLayout> = () => {
                     ></path>
                   </svg>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="hidden tablet:flex space-x-3 lg:space-x-4 xl:space-x-6 py-4 items-center">
-            <a
+            {/* <a
               href="https://app.runwayml.com/login"
               className="uppercase text-sm lg:text-base"
             >
@@ -165,7 +166,7 @@ const HeaderLayout: React.FC<ISFooterLayout> = () => {
               className="flex text-sm rounded-full font-normal leading-tight px-5 py-2 items-center justify-center bg-purple text-white hover:bg-[#322CB5]"
             >
               <span className="font-medium pr-1">Sign Up</span> — It’s Free
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
